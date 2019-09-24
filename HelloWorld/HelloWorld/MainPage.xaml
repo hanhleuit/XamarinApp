@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="HelloWorld.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:HelloWorld"
+    Title="Hello World">
+    <ScrollView>
+        <StackLayout>
+            <Button
+                Clicked="ManHinhChao_Clicked"
+                HorizontalOptions="Center"
+                Text="Màn hình chào"
+                WidthRequest="100" />
+
+            <Button
+                Clicked="ManHinhTinhTong_Clicked"
+                HorizontalOptions="Center"
+                Text="Màn hình tính tổng"
+                WidthRequest="100" />
+
+            <Button
+                Clicked="StackLayout_Clicked"
+                HorizontalOptions="Center"
+                Text="StackLayout"
+                WidthRequest="100" />
+
+            <Button
+                Clicked="AbsoluteLayout_Clicked"
+                HorizontalOptions="Center"
+                Text="AbsoluteLayout"
+                WidthRequest="100" />
+
+            <Button
+                Clicked="GridLayout_Clicked"
+                HorizontalOptions="Center"
+                Text="GridLayout"
+                WidthRequest="100" />
+
+            <Button
+                Clicked="Login_Clicked"
+                HorizontalOptions="Center"
+                Text="Login"
+                WidthRequest="100" />
+
+            <Button
+                Clicked="FlexLayout_Clicked"
+                HorizontalOptions="Center"
+                Text="FlexLayout"
+                WidthRequest="100" />
+
+            <Button
+                Clicked="ScrollView_Clicked"
+                HorizontalOptions="Center"
+                Text="ScrollView"
+                WidthRequest="100" />
+
+            <Button
+                Clicked="Entry_Clicked"
+                HorizontalOptions="Center"
+                Text="Entry"
+                WidthRequest="100" />
+            <Button
+                Clicked="ListView_Clicked"
+                HorizontalOptions="Center"
+                Text="ListView"
+                WidthRequest="100" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
