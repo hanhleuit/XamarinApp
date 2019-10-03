@@ -16,10 +16,5 @@ namespace HelloWorld
 		{
 			InitializeComponent ();
 		}
-
-        private void Chao_Clicked(object sender, EventArgs e)
-        {
-            DisplayAlert("Chào", "Chào bạn: " + txtHoTen.Text, "Thoát");
-        }
-    }
+	}
 }
