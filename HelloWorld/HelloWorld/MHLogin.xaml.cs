@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace HelloWorld
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MHChao : ContentPage
+	public partial class MHLogin : ContentPage
 	{
-		public MHChao ()
+		public MHLogin ()
 		{
 			InitializeComponent ();
 		}
-
-        private void ChaoButton_Clicked(object sender, EventArgs e)
-        {
-            DisplayAlert("Chào", $"Chào bạn {HoTen.Text}", "Thoát");
-        }
-    }
+	}
 }

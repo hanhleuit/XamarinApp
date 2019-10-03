@@ -10,61 +10,52 @@
             <Button
                 Clicked="ManHinhChao_Clicked"
                 HorizontalOptions="Center"
-                Text="Màn hình chào"
-                WidthRequest="100" />
+                Text="Màn hình chào" />
 
             <Button
                 Clicked="ManHinhTinhTong_Clicked"
                 HorizontalOptions="Center"
-                Text="Màn hình tính tổng"
-                WidthRequest="100" />
+                Text="Màn hình tính tổng" />
 
             <Button
                 Clicked="StackLayout_Clicked"
                 HorizontalOptions="Center"
-                Text="StackLayout"
-                WidthRequest="100" />
+                Text="StackLayout" />
 
             <Button
                 Clicked="AbsoluteLayout_Clicked"
                 HorizontalOptions="Center"
-                Text="AbsoluteLayout"
-                WidthRequest="100" />
+                Text="AbsoluteLayout" />
 
             <Button
                 Clicked="GridLayout_Clicked"
                 HorizontalOptions="Center"
-                Text="GridLayout"
-                WidthRequest="100" />
+                Text="GridLayout" />
 
             <Button
                 Clicked="Login_Clicked"
                 HorizontalOptions="Center"
-                Text="Login"
-                WidthRequest="100" />
+                Text="Login" />
 
             <Button
                 Clicked="FlexLayout_Clicked"
                 HorizontalOptions="Center"
-                Text="FlexLayout"
-                WidthRequest="100" />
+                Text="FlexLayout" />
 
             <Button
                 Clicked="ScrollView_Clicked"
                 HorizontalOptions="Center"
-                Text="ScrollView"
-                WidthRequest="100" />
+                Text="ScrollView" />
 
             <Button
                 Clicked="Entry_Clicked"
                 HorizontalOptions="Center"
-                Text="Entry"
-                WidthRequest="100" />
+                Text="Entry" />
+
             <Button
                 Clicked="ListView_Clicked"
                 HorizontalOptions="Center"
-                Text="ListView"
-                WidthRequest="100" />
+                Text="ListView" />
         </StackLayout>
     </ScrollView>
 </ContentPage>

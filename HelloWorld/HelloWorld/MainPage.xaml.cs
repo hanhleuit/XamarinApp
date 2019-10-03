@@ -21,7 +21,7 @@ namespace HelloWorld
 
         private void ManHinhTinhTong_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new MHTinhTong());
         }
 
         private void StackLayout_Clicked(object sender, EventArgs e)
@@ -36,12 +36,12 @@ namespace HelloWorld
 
         private void GridLayout_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new MHMayTinh());
         }
 
         private void Login_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new MHLogin());
         }
 
         private void FlexLayout_Clicked(object sender, EventArgs e)
